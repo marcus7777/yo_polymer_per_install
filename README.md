@@ -14,3 +14,8 @@ bash install
  apt-get install ruby-full -y
  gem install compass
  ```
+go to folder for app
+
+```
+ sudo -u www-data bower install
+ ```
