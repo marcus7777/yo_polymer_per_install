@@ -1,6 +1,9 @@
 # yo_polymer_per_install
 bash install 
 ```
+ wget https://npmjs.org/install.sh
+ chmod +x install.sh
+ sudo ./install.sh
  npm install gulp -g 
  cd
  wget https://iojs.org/dist/latest/iojs-v1.7.1-linux-x64.tar.gz
