@@ -8,4 +8,5 @@ bash install
  cd iojs-v1.7.1-linux-x64/
  cp bin/* /usr/bin
  apt-get install ruby-full
- gem install compass```
+ gem install compass
+ ```
