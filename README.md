@@ -33,5 +33,16 @@ add
 @reboot sudo su -c "cd /home/marcus7777_gmail_com/;gulp serve"
 * * * * * cd /home/marcus7777_gmail_com/ && git pull
 ```
+if you need it serving on port 80 add update gulpfile.js:
+
+```
+...
+// Watch Files For Changes & Reload
+gulp.task('serve', ['styles', 'elements'], function () {
+  browserSync({
+    notify: false,
+    port: 80,
+    ...
+```
 
  
