@@ -3,8 +3,8 @@ bash install as root
 ```
  sudo su
  cd
- wget https://iojs.org/dist/latest/iojs-v1.7.1-linux-x64.tar.gz
- tar xzf iojs-v1.7.1-linux-x64.tar.gz 
+ wget https://iojs.org/dist/latest/iojs-v1.8.1-linux-x64.tar.gz
+ tar xzf iojs-v1.8.1-linux-x64.tar.gz 
  cd iojs-v1.7.1-linux-x64/
  cp bin/* /usr/bin
  cd
