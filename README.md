@@ -15,6 +15,7 @@ bash install as root
  npm install bower -g
  npm install -g yo
  cd
+ rm iojs-v1.8.1-linux-x64.* install.s*
  apt-get install ruby-full -y
  
  
