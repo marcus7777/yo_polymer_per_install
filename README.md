@@ -4,8 +4,8 @@ bash install as root
  sudo su
  cd
  wget https://iojs.org/dist/latest/iojs-v1.8.1-linux-x64.tar.gz
- tar xzf iojs-v1.8.1-linux-x64.tar.gz 
- cd iojs-v1.*/
+ tar xzf iojs-v*-linux-x64.tar.gz 
+ cd iojs-v*/
  cp bin/* /usr/bin
  cd
  wget https://npmjs.org/install.sh
@@ -15,7 +15,7 @@ bash install as root
  npm install bower -g
  npm install -g yo
  cd
- rm iojs-v1.8.1-linux-x64.* install.s*
+ rm iojs-v*-linux-x64* install.s*
  apt-get install ruby-full -y
  
  
