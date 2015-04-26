@@ -19,10 +19,8 @@ bash install as root
  
  
  gem install compass
- ```
-go to folder for app as normal user (not root)
+ exit
 
-```
 npm install -g generator-polymer 
 yo polymer
 git init
