@@ -5,7 +5,7 @@ bash install as root
  cd
  wget https://iojs.org/dist/latest/iojs-v1.8.1-linux-x64.tar.gz
  tar xzf iojs-v1.8.1-linux-x64.tar.gz 
- cd iojs-v1.7.1-linux-x64/
+ cd iojs-v1.*/
  cp bin/* /usr/bin
  cd
  wget https://npmjs.org/install.sh
