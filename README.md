@@ -14,7 +14,7 @@ bash install as root
  ./install.sh
  npm install gulp -g 
  npm install bower -g
- npm install firebase -g
+ npm update -g firebase-tools
  npm install -g yo
  cd
  rm iojs-v*-linux-x64* install.s*
