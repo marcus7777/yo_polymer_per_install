@@ -2,6 +2,7 @@
 bash install as root
 ```
  sudo su
+ apt-get install git
  cd
  wget https://iojs.org/dist/v2.3.0/iojs-v2.3.0-linux-x64.tar.xz
  tar xzf iojs-v2.3.0-linux-x64.tar.xz
