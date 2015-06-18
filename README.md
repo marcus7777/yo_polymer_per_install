@@ -21,9 +21,9 @@ bash install as root
  
  
  gem install compass
+ npm install -g generator-polymer 
  exit
 
-npm install -g generator-polymer 
 yo polymer
 git init
 sudo crontab -e
