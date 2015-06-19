@@ -2,16 +2,16 @@
 bash install as root
 ```
  sudo su
- apt-get install git
+ apt-get install git -y
  cd
- wget https://iojs.org/dist/v2.3.0/iojs-v2.3.0-linux-x64.tar.xz
- tar xzf iojs-v2.3.0-linux-x64.tar.xz
+ wget https://iojs.org/dist/v2.3.0/iojs-v2.3.0-linux-x64.tar.xz  --no-check-certificate
+ tar -xzf iojs-v2.3.0-linux-x64.tar.xz
  cd iojs-v*/
  cp bin/* /usr/bin
  cd
- wget https://npmjs.org/install.sh
+ wget https://npmjs.org/install.sh --no-check-certificate
  chmod +x install.sh
- apt-get install curl
+ apt-get install curl -y
  ./install.sh
  npm install gulp -g 
  npm install bower -g
