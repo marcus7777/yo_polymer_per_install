@@ -15,14 +15,14 @@ bash install as root
  ./install.sh
  npm install gulp -g 
  npm install bower -g
+ npm install vulcanize -g
+ 
  npm install -g firebase-tools
  npm install -g yo
  cd
  rm iojs-v*-linux-x64* install.s*
  apt-get install ruby-full -y
  
- 
- gem install compass
  npm install -g generator-polymer 
  npm install -g yo
  exit
