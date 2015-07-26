@@ -20,7 +20,7 @@ bash install as root
  npm install -g firebase-tools
  npm install -g yo
  cd
- rm iojs-v*-linux-x64* install.s*
+ rm iojs-v*-linux-x64* install.s* -r
  apt-get install ruby-full -y
  
  npm install -g generator-polymer 
