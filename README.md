@@ -24,7 +24,6 @@ bash install as root
  apt-get install ruby-full -y
  
  npm install -g generator-polymer 
- npm install -g yo
  exit
 
 yo polymer
