@@ -5,7 +5,7 @@ bash install as root
  apt-get install git -y
  cd
  wget https://iojs.org/dist/v2.4.0/iojs-v2.4.0-linux-x64.tar.gz  --no-check-certificate
- tar -xzf iojs-v2.4.0-linux-x64.tar.xz
+ tar -xzf iojs-v2.4.0-linux-x64.tar.gz
  cd iojs-v*/
  cp bin/* /usr/bin
  cd
