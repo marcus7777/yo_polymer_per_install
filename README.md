@@ -4,8 +4,8 @@ bash install as root
  sudo su
  apt-get install git -y
  cd
- wget https://iojs.org/dist/v2.4.0/iojs-v2.4.0-linux-x64.tar.gz  --no-check-certificate
- tar -xzf iojs-v2.4.0-linux-x64.tar.gz
+ wget https://iojs.org/dist/v3.0.0/iojs-v3.0.0-linux-x64.tar.gz  --no-check-certificate
+ tar -xzf iojs-v3.0.0-linux-x64.tar.gz
  cd iojs-v*/
  cp bin/* /usr/bin
  cd
