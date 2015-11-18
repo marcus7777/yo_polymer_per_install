@@ -4,9 +4,9 @@ bash install as root
  sudo su
  apt-get install git -y
  cd
- wget https://iojs.org/dist/latest/iojs-v3.3.1-linux-x64.tar.gz  --no-check-certificate
- tar -xzf iojs-v3.3.1-linux-x64.tar.gz
- cd iojs-v*/
+ wget https://nodejs.org/dist/v5.1.0/node-v5.1.0-linux-x64.tar.gz  --no-check-certificate
+ tar -xzf node-v5.1.0-linux-x64.tar.gz 
+ cd node-v*/
  cp bin/* /usr/bin
  cd
  wget https://npmjs.org/install.sh --no-check-certificate
