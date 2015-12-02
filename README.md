@@ -2,7 +2,7 @@
 bash install as root
 ```
  sudo su
- apt-get install git -y
+ apt-get install curl git -y
  cd
  wget https://nodejs.org/dist/v4.2.2/node-v4.2.2-linux-x64.tar.gz  --no-check-certificate
  # see https://nodejs.org/dist/v4.2.2/ for non linux-x64
@@ -12,8 +12,8 @@ bash install as root
  cd
  wget https://npmjs.org/install.sh --no-check-certificate
  chmod +x install.sh
- apt-get install curl -y
  ./install.sh
+ 
  npm install generator-polymer gulp bower vulcanize firebase-tools yo -g 
 
  cd
@@ -21,25 +21,8 @@ bash install as root
  
  exit
 
+mkdir yo_polymer
+cd yo_polymer
 yo polymer
 git init
-sudo crontab -e
-```
-add
-```
-@reboot sudo su -c "cd /home/marcus7777_gmail_com/;gulp serve"
-* * * * * cd /home/marcus7777_gmail_com/ && git pull
-```
-if you need it serving on port 80 add update gulpfile.js:
-
-```
-...
-// Watch Files For Changes & Reload
-gulp.task('serve', ['styles', 'elements'], function () {
-  browserSync({
-    notify: false,
-    port: 80,
-    ...
-```
-
- 
+git commit -am 'first commit'
