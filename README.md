@@ -4,8 +4,9 @@ bash install as root
  sudo su
  apt-get install git -y
  cd
- wget https://nodejs.org/dist/v5.1.0/node-v5.1.0-linux-x64.tar.gz  --no-check-certificate
- tar -xzf node-v5.1.0-linux-x64.tar.gz 
+ wget https://nodejs.org/dist/v4.2.2/node-v4.2.2-linux-x64.tar.gz  --no-check-certificate
+ # see https://nodejs.org/dist/v4.2.2/ for non linux-x64
+ tar -xzf node-v*
  cd node-v*/
  cp bin/* /usr/bin
  cd
@@ -13,17 +14,11 @@ bash install as root
  chmod +x install.sh
  apt-get install curl -y
  ./install.sh
- npm install gulp -g 
- npm install bower -g
- npm install vulcanize -g
- 
- npm install -g firebase-tools
- npm install -g yo
+ npm install generator-polymer gulp bower vulcanize firebase-tools yo -g 
+
  cd
  rm iojs-v*-linux-x64* install.s* -r
- apt-get install ruby-full -y
  
- npm install -g generator-polymer 
  exit
 
 yo polymer
