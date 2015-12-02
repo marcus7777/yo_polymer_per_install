@@ -17,7 +17,7 @@ bash install as root
  npm install generator-polymer gulp bower vulcanize firebase-tools yo -g 
 
  cd
- rm iojs-v*-linux-x64* install.s* -r
+ rm node* install.s* -rf
  
  exit
 
