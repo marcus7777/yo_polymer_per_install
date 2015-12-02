@@ -1,4 +1,4 @@
-# yo_polymer_per_install
+# mac yo_polymer
 
 [Install curl](http://www.vettyofficer.com/2013/06/how-to-install-curl-in-mac-os-x.html)
 
