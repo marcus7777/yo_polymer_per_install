@@ -11,8 +11,7 @@ bash install as root
  cp bin/* /usr/bin
  cd
  wget https://npmjs.org/install.sh --no-check-certificate
- chmod +x install.sh
- ./install.sh
+ sh ./install.sh
  
  npm install generator-polymer gulp bower vulcanize firebase-tools yo -g 
 
