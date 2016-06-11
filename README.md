@@ -6,7 +6,7 @@ bash install as root
  cd
  wget https://nodejs.org/dist/v6.2.1/node-v6.2.1-linux-x64.tar.xz  --no-check-certificate
  # see https://nodejs.org/dist/v4.2.2/ for non linux-x64
- tar -xzf node-v*
+ tar -xf node-v*
  cd node-v*/
  cp bin/* /usr/bin
  cd
