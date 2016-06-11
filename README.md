@@ -5,7 +5,7 @@ bash install as root
  apt-get install curl git -y
  cd
  wget https://nodejs.org/dist/v6.2.1/node-v6.2.1-linux-x64.tar.xz  --no-check-certificate
- # see https://nodejs.org/dist/v4.2.2/ for non linux-x64
+ # see https://nodejs.org/ for non linux-x64
  tar -xf node-v*
  cd node-v*/
  cp bin/* /usr/bin
@@ -13,7 +13,7 @@ bash install as root
  wget https://npmjs.org/install.sh --no-check-certificate
  sh ./install.sh
  
- npm install generator-polymer gulp bower vulcanize firebase-tools yo -g 
+ npm install -g polymer-cli bower
 
  cd
  rm node* install.s* -rf
