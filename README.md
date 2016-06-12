@@ -13,10 +13,10 @@ bash install as root
  wget https://npmjs.org/install.sh --no-check-certificate
  sh ./install.sh
  
- npm install -g polymer-cli bower
+ npm install -g polymer-cli bower firebase-tools
 
  cd
- rm node* install.s* -rf
+ rm node-v* install.s* -rf
  
  exit
 
