@@ -20,8 +20,8 @@ bash install as root
  
  exit
 
-mkdir yo_polymer
-cd yo_polymer
-yo polymer
+mkdir polymer
+cd polymer
+polymer init
 git init
 git commit -am 'first commit'
