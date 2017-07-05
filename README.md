@@ -4,7 +4,7 @@ bash install as root
  sudo su
  apt-get install curl git -y
  cd
- wget https://nodejs.org/dist/v6.2.1/node-v6.2.1-linux-x64.tar.xz  --no-check-certificate
+ wget https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.xz  --no-check-certificate
  # see https://nodejs.org/ for non linux-x64
  tar -xf node-v*
  cd node-v*/
