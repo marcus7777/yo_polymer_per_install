@@ -4,11 +4,8 @@ bash install as root
  sudo su
  apt-get install curl git -y
  cd
- wget https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.xz  --no-check-certificate
- # see https://nodejs.org/ for non linux-x64
- tar -xf node-v*
- cd node-v*/
- cp bin/* /usr/bin
+ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+ 
  cd
  wget https://npmjs.org/install.sh --no-check-certificate
  sh ./install.sh
