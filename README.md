@@ -3,7 +3,7 @@
 ```
   sudo su
 ```
-## install and exit
+## install, exit, Setup a polymer project
 ``` 
  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
  apt-get install nodejs curl git -y
